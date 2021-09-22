@@ -3,13 +3,18 @@
 namespace Kata;
 
 use PHPUnit\Framework\TestCase;
-use Kata\Index;
+use Kata\Triangle;
 
-class IndexTest extends TestCase
+class TriangleTest extends TestCase
 {
+    /**
+     * @var \Kata\Triangle
+     */
+    private $index;
+
     protected function setUp(): void
     {
-        $this->index = new Index();
+        $this->index = new Triangle();
     }
 
     public function testShallPass(): void

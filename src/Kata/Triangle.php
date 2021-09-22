@@ -2,7 +2,7 @@
 
 namespace Kata;
 
-class Index
+class Triangle
 {
     public function handle(): bool
     {

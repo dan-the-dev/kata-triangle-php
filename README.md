@@ -7,3 +7,6 @@ Given three integers representing the length of the sides of a triangle, return:
 - 3 if the triangle is scalene
 
 Throw an exception if the triangle is not well-formed.
+
+Run tests:
+`vendor/phpunit/phpunit/phpunit tests`
